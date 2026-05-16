@@ -17,7 +17,7 @@ python3 -m venv curvyILT_env
 # Activate it
 source curvyILT_env/bin/activate  # On Linux/macOS
 # or on Windows:
-# curvyILT_env\Scripts\activate
+curvyILT_env\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 This is a running example on ICCAD13 benchmark images.
 Change the directory for your own design.
 
-`.venv/bin/python run_iccad13.py`
+`curvyILT_env/bin/python run_iccad13.py`
 
 ## forked from :
 [Haoyu Yang](mailto:haoyuy@nvidia.com)
